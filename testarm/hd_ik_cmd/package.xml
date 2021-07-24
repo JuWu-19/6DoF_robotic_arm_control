@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package>
+
+  <name>hd_ik_cmd</name>
+  <version>0.3.0</version>
+  <description>
+     wtf
+  </description>
+  <author email="j-wu19@outlook.com">xx</author>
+  <maintainer email="j-wu19@outlook.com">xx</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://moveit.ros.org/</url>
+  <url type="bugtracker">https://github.com/ros-planning/moveit/issues</url>
+  <url type="repository">https://github.com/ros-planning/moveit</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>moveit_visual_tools</build_depend>
+  <build_depend>rviz_visual_tools</build_depend>
+  <run_depend>moveit_visual_tools</run_depend>
+  <run_depend>rviz_visual_tools</run_depend>
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>moveit_ros_planning</build_depend>
+  <run_depend>moveit_ros_planning</run_depend>
+  <build_depend>moveit_ros_planning_interface</build_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <build_depend>moveit_core</build_depend>
+  <run_depend>moveit_core</run_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+    
+  <run_depend>tf2_geometry_msgs</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_fake_controller_manager</run_depend>
+  <run_depend>moveit_kinematics</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>moveit_setup_assistant</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <!-- This package is referenced in the warehouse launch files, but does not build out of the box at the moment. Commented the dependency until this works. -->
+  <!-- <run_depend>warehouse_ros_mongo</run_depend> -->
+  <build_depend>HD15</build_depend>
+  <run_depend>HD15</run_depend>
+  <build_depend>HD15_IK</build_depend>
+  <run_depend>HD15_IK</run_depend>
+
+
+</package>
+
