@@ -1,0 +1,12 @@
+controller_list:
+  - name: fake_HD15_controller
+    joints:
+      - Joint_B
+      - Joint_L
+      - Joint_U
+      - Joint_W1
+      - Joint_W2
+      - Joint_G
+initial:  # Define initial robot poses.
+  - group: HD15
+    pose: Initial pose
