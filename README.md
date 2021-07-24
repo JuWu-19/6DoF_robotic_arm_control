@@ -1,5 +1,6 @@
-# 6DoF_robotic_arm_control
+# 6DoF robotic arm control
 
+## Objectives
 Modelling and visualization of the robotic arm in ROS: XML language is used to describe the model of robotic arm
 and then the urdf model is imported into rviz for visualization.
 
@@ -12,3 +13,4 @@ Cartesian trajectory generator: given way-points with detailed positions, veloci
 specifications like time constraints and limits of rotational angle against certain axis, the generated
 trajectory msgs::JointTrajectory is obtained to guide the robotic arm move in the space with the desired interpolated
 path.
+![ik_test1](https://user-images.githubusercontent.com/58901415/126875317-2e8cf769-ff5f-40da-bbf3-f41aca2ad699.gif)
