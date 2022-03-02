@@ -27,3 +27,4 @@ Direct inverse kinematics: roslaunch move_group_cmd
 Task/Joint trajectories generation with way-points: roslaunch hamilton_demo
 ### Animation
 ![ik_test1](https://user-images.githubusercontent.com/58901415/126875317-2e8cf769-ff5f-40da-bbf3-f41aca2ad699.gif)
+<img src="https://user-images.githubusercontent.com/58901415/126875317-2e8cf769-ff5f-40da-bbf3-f41aca2ad699.gif" width="40" height="40" />
