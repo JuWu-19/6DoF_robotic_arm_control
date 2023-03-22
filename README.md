@@ -1,6 +1,6 @@
-# 6DoF robotic arm control
+## 6DoF robotic arm control
 
-## Objectives
+### Objectives
 Modelling and visualization of the robotic arm in ROS: XML language is used to describe the model of robotic arm
 and then the urdf model is imported into rviz for visualization.
 
@@ -14,7 +14,7 @@ specifications like time constraints and limits of rotational angle against cert
 trajectory msgs::JointTrajectory is obtained to guide the robotic arm move in the space with the desired interpolated
 path.
 
-## Settings if needed
+### Settings if needed
 source /opt/ros/melodic/setup.bash.
 sudo apt-get install ros-melodic-moveit.
 sudo apt-get install ros-melodic-moveit-visual-tools.
@@ -22,7 +22,7 @@ sudo apt-get install ros-melodic-rviz-visual-tools.
 git clone -b melodic-devel https://github.com/ros-industrial-consortium/descartes.git
 sudo apt-get install ros-melodic-industrial-core
 
-## How to use
+### How to use
 Direct inverse kinematics: roslaunch move_group_cmd
 Task/Joint trajectories generation with way-points: roslaunch hamilton_demo
 ### Animation
